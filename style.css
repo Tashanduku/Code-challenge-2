@@ -13,10 +13,20 @@ body {
     color: #fff;
     width: 500px;
     border-radius: 8px;
-    -webkit-box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
     margin: 100px auto;
     padding-bottom: 1px;
+  }
+
+  #shopping-list .top-box {
+    padding: 60px 40px 80px 40px;
+    background-color: #e8e8ea;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+    width: 500px;
+    overflow: hidden;
+    text-align: center;
+    background: linear-gradient(to bottom, #e07ae9, #e954b0);
   }
 
   
