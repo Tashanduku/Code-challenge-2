@@ -29,4 +29,37 @@ body {
     background: linear-gradient(to bottom, #e07ae9, #e954b0);
   }
 
+
+/* styling the icon*/
+  #shopping-list .top-box .icon {
+    display: inline-block;
+    z-index: 2;
+  }
+
+  #shopping-list .top-box .icon i.fas {
+    font-size: 40px;
+    color:rgb(240, 241, 155);
+  }
+  
+  /*styling the heading and paragraph */
+  #shopping-list .top-box h1 {
+    font-family: 'Poppins', sans-serif;;
+    text-transform: uppercase;
+    font-weight: 500;
+    z-index: 2;
+    margin: 10px auto 0 auto;
+    font-size: 36px;
+    letter-spacing: 1px;
+    color:aqua
+  }
+
+  #shopping-list .top-box p {
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+  }
   
